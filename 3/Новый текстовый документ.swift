@@ -2,18 +2,12 @@
 let teas: [String: Int] = ["earl grey": 100, "green": 75, "black": 80]
 var clients: [String] = ["black", "green", "black", "earl grey"]
 for (index, e) in clients.enumerated() {
-    print (String(index)+" "+e) 
-    print(teas[e]!,"р\n") // ?
+    print(String(index) + " " + e + "" + String(teas[e]!))
 }
 
 //2
 var array = [-4, 5, 10, nil, 4, nil, 25, 0, nil, 16, 75, -20, -7, 15, 0, nil]
-var res = array.filter { $0 != nil && $0 != 0 && $0 != 4 }
-// var b = array.compactMap { Int($0) }
-var res2: [Int] = []
-res.forEach {el in
-res2.append(el!)
-}
+print(array.compactMap({$0}).filter{$0 != 0 && $0 != 4}.sorted(by: <)) 
 print(res2.sorted{ $0 < $1 })
 
 //3
