@@ -17,7 +17,6 @@ struct Pizza{
             default: self = .p
             }
         }
-
     }
     
     enum doughType {
@@ -38,8 +37,17 @@ struct Pizza{
         case pepper
         case olives
         
-        init?(add: String) {
+        init(add: String) {
             switch add {
+            case "tomato": self = .tomato
+            case "pepper": self = .pepper
+            case "olives": self = .olives
+            default: self = .tomato
+            }
+        }
+        
+        init?(newAdd: String) {
+            switch newAdd {
             case "tomato": self = .tomato
             case "pepper": self = .pepper
             case "olives": self = .olives
@@ -47,6 +55,7 @@ struct Pizza{
             }
         }
     }
+    
     var name: TypeOfPizza
     var addes: additive
     var dough: doughType
@@ -58,6 +67,13 @@ struct Pizza{
         self.dough = dough
         self.addes = addes
     }
+    
+    // init?(name: TypeOfPizza, cost: Int, dough: doughType, addes: nil){
+    //     self.name = name
+    //     self.cost = cost
+    //     self.dough = dough
+    //     self.addes = nil
+    // }
     
 }
 
@@ -72,11 +88,16 @@ class Pizzeria{
         self.arrayOfPizzas.append(newpizza)
     }
     
-    func getAllPizzas()->[Pizza]{
-        return self.arrayOfPizzas
+    func getAllPizzas()->Void{
+        print(arrayOfPizzas)
     }
     
 }
 
 var myPizzariya = Pizzeria(arrayOfPizzas: [])
-myPizzariya.addPizzza(name: .p, cost: 100, dough: .thick, addes: .olives) //как правильно передавать значения из перечислении?
+var myPizza1 = Pizza(name: .p, cost: 100, dough: .thick, addes: .olives)
+var myPizza2 = Pizza(name: .p, cost: 150, dough: .thin, addes: .pepper)
+// var myPizza3 = Pizza(name: .p, cost: 80, dough: .thin) // как создать другой инициализатор, в котороый необязательно передавать добавки?
+myPizzariya.addPizzza(newpizza: myPizza1)
+myPizzariya.addPizzza(newpizza: myPizza2)
+myPizzariya.getAllPizzas()
