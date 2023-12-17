@@ -79,4 +79,4 @@ class Pizzeria{
 }
 
 var myPizzariya = Pizzeria(arrayOfPizzas: [])
-myPizzariya.addPizzza(name: .p, cost: 100, dough: .thick, addes: .olives)
+myPizzariya.addPizzza(name: .p, cost: 100, dough: .thick, addes: .olives) //как правильно передавать значения из перечислении?
