@@ -3,23 +3,23 @@
 struct Pizza{
 
     enum TypeOfPizza {
-        case p
-        case f
-        case c
-        case m
+        case pepperoni
+        case fourCheese
+        case caesar
+        case margarita
         
         init(type: String) {
             switch type {
-            case "pepperoni": self = .p
-            case "fourCheese": self = .f
-            case "caesar": self = .c
-            case "margarita": self = .m
-            default: self = .p
+            case "pepperoni": self = .pepperoni
+            case "fourCheese": self = .fourCheese
+            case "caesar": self = .caesar
+            case "margarita": self = .margarita
+            default: self = .pepperoni
             }
         }
     }
     
-    enum doughType {
+    enum DoughType {
         case thin
         case thick
         
@@ -32,7 +32,7 @@ struct Pizza{
         }
     }
     
-    enum additive{
+    enum Additive{
         case tomato
         case pepper
         case olives
@@ -57,11 +57,11 @@ struct Pizza{
     }
     
     var name: TypeOfPizza
-    var addes: additive
-    var dough: doughType
+    var addes: [Additive]
+    var dough: DoughType
     private var cost: Int
     
-    init (name: TypeOfPizza, cost: Int, dough: doughType, addes: additive){
+    init (name: TypeOfPizza, cost: Int, dough: DoughType, addes: [Additive]){
         self.name = name
         self.cost = cost
         self.dough = dough
@@ -85,19 +85,19 @@ class Pizzeria{
     }
     
     func addPizzza(newpizza: Pizza){
-        self.arrayOfPizzas.append(newpizza)
+        arrayOfPizzas.append(newpizza)
     }
     
-    func getAllPizzas()->Void{
-        print(arrayOfPizzas)
+    func getAllPizzas() -> [Pizza]{
+        return arrayOfPizzas
     }
     
 }
 
 var myPizzariya = Pizzeria(arrayOfPizzas: [])
-var myPizza1 = Pizza(name: .p, cost: 100, dough: .thick, addes: .olives)
-var myPizza2 = Pizza(name: .p, cost: 150, dough: .thin, addes: .pepper)
+var myPizza1 = Pizza(name: .pepperoni, cost: 100, dough: .thick, addes: [.olives])
+var myPizza2 = Pizza(name: .pepperoni, cost: 150, dough: .thin, addes: [.pepper, .olives])
 // var myPizza3 = Pizza(name: .p, cost: 80, dough: .thin) // как создать другой инициализатор, в котороый необязательно передавать добавки?
 myPizzariya.addPizzza(newpizza: myPizza1)
 myPizzariya.addPizzza(newpizza: myPizza2)
-myPizzariya.getAllPizzas()
+print(myPizzariya.getAllPizzas())
