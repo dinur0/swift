@@ -12,9 +12,9 @@ struct ContentView: View {
     @ObservedObject private var viewModel = ProductViewModel()
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 100) {
+        VStack(alignment: .leading, spacing: 24) {
             
-//            ProductSalesSum(productName: viewModel.product.name, sum: viewModel.product.data.sum(\.money))
+            ProductSalesSum(productName: viewModel.product.name, sum: viewModel.product.data.sum(\.money))
             
             ProductBar(data: viewModel.product.data,
             range: viewModel.SalesRange)

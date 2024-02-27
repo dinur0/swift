@@ -44,5 +44,6 @@ class ProductViewModel: ObservableObject{
         return productsData[productIndex]
     }
     
-    var SalesRange = 10000...80000
+    var SalesRange = 1...100000
 }
+

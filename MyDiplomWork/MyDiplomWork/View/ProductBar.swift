@@ -28,6 +28,6 @@ struct ProductBar: View {
     }
 }
 
-//#Preview {
-//    ContentView()
-//}
+#Preview {
+    ContentView()
+}
