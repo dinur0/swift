@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B73B28F2B8DF53600F9E88D /* MyDiplomWorkUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B73B28E2B8DF53600F9E88D /* MyDiplomWorkUnitTest.swift */; };
+		9B73B29C2B8DFF7A00F9E88D /* MyDiplomWorkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B73B29B2B8DFF7A00F9E88D /* MyDiplomWorkUITests.swift */; };
+		9B73B29E2B8DFF7A00F9E88D /* MyDiplomWorkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B73B29D2B8DFF7A00F9E88D /* MyDiplomWorkUITestsLaunchTests.swift */; };
 		9B75F3562B8B6EA0005274F0 /* MyDiplomWorkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B75F3552B8B6EA0005274F0 /* MyDiplomWorkApp.swift */; };
 		9B75F3582B8B6EA0005274F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B75F3572B8B6EA0005274F0 /* ContentView.swift */; };
 		9B75F35A2B8B6EA2005274F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B75F3592B8B6EA2005274F0 /* Assets.xcassets */; };
@@ -22,7 +25,37 @@
 		9B75F37F2B8B8343005274F0 /* TextAnimationValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B75F37E2B8B8343005274F0 /* TextAnimationValue.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		9B73B2832B8DF14E00F9E88D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B75F34A2B8B6EA0005274F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B75F3512B8B6EA0005274F0;
+			remoteInfo = MyDiplomWork;
+		};
+		9B73B2902B8DF53600F9E88D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B75F34A2B8B6EA0005274F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B75F3512B8B6EA0005274F0;
+			remoteInfo = MyDiplomWork;
+		};
+		9B73B29F2B8DFF7A00F9E88D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B75F34A2B8B6EA0005274F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B75F3512B8B6EA0005274F0;
+			remoteInfo = MyDiplomWork;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		9B73B27F2B8DF14E00F9E88D /* MyDiplomWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDiplomWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B73B28C2B8DF53600F9E88D /* MyDiplomWorkTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDiplomWorkTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B73B28E2B8DF53600F9E88D /* MyDiplomWorkUnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDiplomWorkUnitTest.swift; sourceTree = "<group>"; };
+		9B73B2992B8DFF7A00F9E88D /* MyDiplomWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDiplomWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B73B29B2B8DFF7A00F9E88D /* MyDiplomWorkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDiplomWorkUITests.swift; sourceTree = "<group>"; };
+		9B73B29D2B8DFF7A00F9E88D /* MyDiplomWorkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDiplomWorkUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9B75F3522B8B6EA0005274F0 /* MyDiplomWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDiplomWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B75F3552B8B6EA0005274F0 /* MyDiplomWorkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDiplomWorkApp.swift; sourceTree = "<group>"; };
 		9B75F3572B8B6EA0005274F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +73,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9B73B27C2B8DF14E00F9E88D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B73B2892B8DF53600F9E88D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B73B2962B8DFF7A00F9E88D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9B75F34F2B8B6EA0005274F0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -50,10 +104,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B73B28D2B8DF53600F9E88D /* MyDiplomWorkTest */ = {
+			isa = PBXGroup;
+			children = (
+				9B73B28E2B8DF53600F9E88D /* MyDiplomWorkUnitTest.swift */,
+			);
+			path = MyDiplomWorkTest;
+			sourceTree = "<group>";
+		};
+		9B73B29A2B8DFF7A00F9E88D /* MyDiplomWorkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B73B29B2B8DFF7A00F9E88D /* MyDiplomWorkUITests.swift */,
+				9B73B29D2B8DFF7A00F9E88D /* MyDiplomWorkUITestsLaunchTests.swift */,
+			);
+			path = MyDiplomWorkUITests;
+			sourceTree = "<group>";
+		};
 		9B75F3492B8B6EA0005274F0 = {
 			isa = PBXGroup;
 			children = (
 				9B75F3542B8B6EA0005274F0 /* MyDiplomWork */,
+				9B73B28D2B8DF53600F9E88D /* MyDiplomWorkTest */,
+				9B73B29A2B8DFF7A00F9E88D /* MyDiplomWorkUITests */,
 				9B75F3532B8B6EA0005274F0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,6 +135,9 @@
 			isa = PBXGroup;
 			children = (
 				9B75F3522B8B6EA0005274F0 /* MyDiplomWork.app */,
+				9B73B27F2B8DF14E00F9E88D /* MyDiplomWorkTests.xctest */,
+				9B73B28C2B8DF53600F9E88D /* MyDiplomWorkTest.xctest */,
+				9B73B2992B8DFF7A00F9E88D /* MyDiplomWorkUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,6 +189,60 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9B73B27E2B8DF14E00F9E88D /* MyDiplomWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B73B2852B8DF14E00F9E88D /* Build configuration list for PBXNativeTarget "MyDiplomWorkTests" */;
+			buildPhases = (
+				9B73B27B2B8DF14E00F9E88D /* Sources */,
+				9B73B27C2B8DF14E00F9E88D /* Frameworks */,
+				9B73B27D2B8DF14E00F9E88D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B73B2842B8DF14E00F9E88D /* PBXTargetDependency */,
+			);
+			name = MyDiplomWorkTests;
+			productName = MyDiplomWorkTests;
+			productReference = 9B73B27F2B8DF14E00F9E88D /* MyDiplomWorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B73B28B2B8DF53600F9E88D /* MyDiplomWorkTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B73B2922B8DF53600F9E88D /* Build configuration list for PBXNativeTarget "MyDiplomWorkTest" */;
+			buildPhases = (
+				9B73B2882B8DF53600F9E88D /* Sources */,
+				9B73B2892B8DF53600F9E88D /* Frameworks */,
+				9B73B28A2B8DF53600F9E88D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B73B2912B8DF53600F9E88D /* PBXTargetDependency */,
+			);
+			name = MyDiplomWorkTest;
+			productName = MyDiplomWorkTest;
+			productReference = 9B73B28C2B8DF53600F9E88D /* MyDiplomWorkTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B73B2982B8DFF7A00F9E88D /* MyDiplomWorkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B73B2A12B8DFF7A00F9E88D /* Build configuration list for PBXNativeTarget "MyDiplomWorkUITests" */;
+			buildPhases = (
+				9B73B2952B8DFF7A00F9E88D /* Sources */,
+				9B73B2962B8DFF7A00F9E88D /* Frameworks */,
+				9B73B2972B8DFF7A00F9E88D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B73B2A02B8DFF7A00F9E88D /* PBXTargetDependency */,
+			);
+			name = MyDiplomWorkUITests;
+			productName = MyDiplomWorkUITests;
+			productReference = 9B73B2992B8DFF7A00F9E88D /* MyDiplomWorkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		9B75F3512B8B6EA0005274F0 /* MyDiplomWork */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B75F3602B8B6EA2005274F0 /* Build configuration list for PBXNativeTarget "MyDiplomWork" */;
@@ -140,6 +270,18 @@
 				LastSwiftUpdateCheck = 1510;
 				LastUpgradeCheck = 1510;
 				TargetAttributes = {
+					9B73B27E2B8DF14E00F9E88D = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 9B75F3512B8B6EA0005274F0;
+					};
+					9B73B28B2B8DF53600F9E88D = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 9B75F3512B8B6EA0005274F0;
+					};
+					9B73B2982B8DFF7A00F9E88D = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 9B75F3512B8B6EA0005274F0;
+					};
 					9B75F3512B8B6EA0005274F0 = {
 						CreatedOnToolsVersion = 15.1;
 					};
@@ -159,11 +301,35 @@
 			projectRoot = "";
 			targets = (
 				9B75F3512B8B6EA0005274F0 /* MyDiplomWork */,
+				9B73B27E2B8DF14E00F9E88D /* MyDiplomWorkTests */,
+				9B73B28B2B8DF53600F9E88D /* MyDiplomWorkTest */,
+				9B73B2982B8DFF7A00F9E88D /* MyDiplomWorkUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9B73B27D2B8DF14E00F9E88D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B73B28A2B8DF53600F9E88D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B73B2972B8DFF7A00F9E88D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9B75F3502B8B6EA0005274F0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -176,6 +342,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9B73B27B2B8DF14E00F9E88D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B73B2882B8DF53600F9E88D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B73B28F2B8DF53600F9E88D /* MyDiplomWorkUnitTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B73B2952B8DFF7A00F9E88D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B73B29E2B8DFF7A00F9E88D /* MyDiplomWorkUITestsLaunchTests.swift in Sources */,
+				9B73B29C2B8DFF7A00F9E88D /* MyDiplomWorkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9B75F34E2B8B6EA0005274F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -196,7 +386,125 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		9B73B2842B8DF14E00F9E88D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B75F3512B8B6EA0005274F0 /* MyDiplomWork */;
+			targetProxy = 9B73B2832B8DF14E00F9E88D /* PBXContainerItemProxy */;
+		};
+		9B73B2912B8DF53600F9E88D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B75F3512B8B6EA0005274F0 /* MyDiplomWork */;
+			targetProxy = 9B73B2902B8DF53600F9E88D /* PBXContainerItemProxy */;
+		};
+		9B73B2A02B8DFF7A00F9E88D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B75F3512B8B6EA0005274F0 /* MyDiplomWork */;
+			targetProxy = 9B73B29F2B8DFF7A00F9E88D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		9B73B2862B8DF14E00F9E88D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MyDiplomWorkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyDiplomWork.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyDiplomWork";
+			};
+			name = Debug;
+		};
+		9B73B2872B8DF14E00F9E88D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MyDiplomWorkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyDiplomWork.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyDiplomWork";
+			};
+			name = Release;
+		};
+		9B73B2932B8DF53600F9E88D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MyDiplomWorkTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyDiplomWork.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyDiplomWork";
+			};
+			name = Debug;
+		};
+		9B73B2942B8DF53600F9E88D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MyDiplomWorkTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyDiplomWork.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyDiplomWork";
+			};
+			name = Release;
+		};
+		9B73B2A22B8DFF7A00F9E88D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MyDiplomWorkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyDiplomWork;
+			};
+			name = Debug;
+		};
+		9B73B2A32B8DFF7A00F9E88D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MyDiplomWorkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyDiplomWork;
+			};
+			name = Release;
+		};
 		9B75F35E2B8B6EA2005274F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -375,6 +683,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9B73B2852B8DF14E00F9E88D /* Build configuration list for PBXNativeTarget "MyDiplomWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B73B2862B8DF14E00F9E88D /* Debug */,
+				9B73B2872B8DF14E00F9E88D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B73B2922B8DF53600F9E88D /* Build configuration list for PBXNativeTarget "MyDiplomWorkTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B73B2932B8DF53600F9E88D /* Debug */,
+				9B73B2942B8DF53600F9E88D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B73B2A12B8DFF7A00F9E88D /* Build configuration list for PBXNativeTarget "MyDiplomWorkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B73B2A22B8DFF7A00F9E88D /* Debug */,
+				9B73B2A32B8DFF7A00F9E88D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9B75F34D2B8B6EA0005274F0 /* Build configuration list for PBXProject "MyDiplomWork" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
