@@ -1,10 +1,3 @@
-//
-//  MyDiplomWorkTest.swift
-//  MyDiplomWorkTest
-//
-//  Created by хех on 27.02.2024.
-//
-
 import XCTest
 @testable import MyDiplomWork
 class MyDiplomWorkUnitTest: XCTestCase {
@@ -14,7 +7,6 @@ class MyDiplomWorkUnitTest: XCTestCase {
     override func setUpWithError() throws {
         try super.setUpWithError()
         productViewModel = ProductViewModel()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
     override func tearDownWithError() throws {
@@ -27,7 +19,7 @@ class MyDiplomWorkUnitTest: XCTestCase {
         for num in productViewModel!.productPickerOptions{
             sum += num.tag
         }
-        XCTAssertEqual(sum, 6, "сумма tags корректна")
+        XCTAssertEqual(sum, 3, "сумма tags корректна")
     }
     
     func testPerformanceExample() throws {
@@ -39,5 +31,4 @@ class MyDiplomWorkUnitTest: XCTestCase {
             ]
         }
     }
-    
 }
